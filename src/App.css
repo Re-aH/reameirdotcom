@@ -43,7 +43,12 @@ ul {
   padding: 10px;
   font-size: 1.1rem;
 }
-
+.right {
+  margin-right: 50px;
+}
+.left {
+  margin-left: 50px;
+}
 .pageContent {
   display: flex;
   flex-direction: column;
@@ -51,16 +56,21 @@ ul {
   align-items: stretch;
 }
 .intro {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 8%;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  margin-top: 6%;
   height: 69.5vh;
 }
 
 .profilePic {
-  width: 280px;
-  height: 280px;
-  margin-right: 50px;
+  display: inline-block;
+  position: fixed;
+  right: 65px;
+  z-index: -1;
+  width: 60vw;
+  height: auto;
+  /* height: 280px; */
+  /* margin-right: 50px; */
 }
 
 .myName {
@@ -104,9 +114,10 @@ ul {
 }
 
 .socialLinkPic {
-  width: 40px;
+  width: 30px;
   margin-left: 2px;
   margin-right: 2px;
+  filter: invert();
 }
 
 .socialLinkPic:hover {

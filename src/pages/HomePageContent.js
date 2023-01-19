@@ -1,5 +1,5 @@
 import Footer from '../Footer';
-import profilePic from '../images/profilepic.jpg'
+import profilePic from '../images/profilepic2.jpg'
 import { Helmet } from 'react-helmet';
 
 const HomePageContent = () => {
@@ -22,8 +22,8 @@ const HomePageContent = () => {
                         Web-Developer. Composer for Film&Media. Saxophone, Flute and EWI player.
                     </div>
                 </div>
-                <img src={profilePic} alt="Profile Pic" className='profilePic' />
             </div>
+            <img src={profilePic} alt="Profile Pic" className='profilePic' />
 
             <Footer />
         </div>
