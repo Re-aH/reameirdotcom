@@ -41,6 +41,7 @@ const ReaMeirGroup = () => {
                 </div>
             </div>
             <iframe className="spotifyPlayer" title="liveAlbum" src="https://open.spotify.com/embed/album/1AL0QjzoOSy8ZeRUR6yahc?utm_source=generator&theme=0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
             <iframe className="spotifyPlayer" title="studioAlbum" src="https://open.spotify.com/embed/album/5Ngzxv9OUDMxbrZz2hGkx5?utm_source=generator" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
             <iframe className="RMGvid" src="https://www.youtube.com/embed/mjkMJhwKi14" title="1minute" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>

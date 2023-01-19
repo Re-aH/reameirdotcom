@@ -19,11 +19,6 @@ body {
   align-items: center;
 }
 
-.myName {
-  font-size: 2rem;
-  margin-left: 20px;
-}
-
 .nav-items {
   list-style: none;
   display: flex;
@@ -56,8 +51,9 @@ ul {
 }
 .intro {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 10%;
+  height: 65vh;
 }
 
 .profilePic {
@@ -66,19 +62,37 @@ ul {
   margin-left: 20px;
 }
 
-.homeText {
-  font-size: 2.5rem;
-  margin-top: 0px;
-  margin-left: 25px;
-  max-width: 75%;
+.myName {
+  font-size: 1.7rem;
+  margin-bottom: 0px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  /* margin-left: 20px; */
 }
 
+.homeText {
+  font-size: 2.8rem;
+  margin-top: 0px;
+  margin-left: 50px;
+  max-width: 60%;
+  /* margin-block-start: 0em; */
+  /* margin-block-end: 0em; */
+}
+
+.homeText1 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
 .homeText2 {
-  font-size: 1.5rem;
-  font-weight: 550;
-  margin: 12% auto 14%;
+  font-size: 1.7rem;
+  /* font-weight: 550; */
+  /* margin: 12% auto 14%; */
   max-width: 75%;
-  font-family: "Courier New", Courier, monospace;
+  margin-top: 30px;
+  line-height: 1.6;
+  /* margin-block-start: 0em; */
+  /* margin-block-end: 0em; */
+  /* font-family: "Courier New", Courier, monospace; */
   flex: 1;
 }
 .footer {

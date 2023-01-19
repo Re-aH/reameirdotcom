@@ -11,14 +11,20 @@ const HomePageContent = () => {
             </Helmet>
             <div className='intro'>
 
+                <div className='homeText'>
+                    <div className='myName'>Rea Meir</div><br />
+                    <div className='homeText1'>
+                        Front-End Developer, Programmer, <br />
+                        Musician.
+                    </div>
+                    <div className='homeText2'>
+                        Seeking balance between Creativity and Logic. <br />
+                        Web-Developer, Composer for Film&Media, Saxophone, Flute and EWI player.
+                    </div>
+                </div>
                 <img src={profilePic} alt="Profile Pic" className='profilePic' />
-                <p className='homeText'>
-                    Saxophonist, EWI Player, Composer, Arranger, Educator, Programmer & Web Developer.
-                </p>
             </div>
-            <p className='homeText2'>
-                Creativity and Logic, Inspiration and Repetition, are just a few of the building blocks. <br></br> For music, programming, and much more.
-            </p>
+
             <Footer />
         </div>
     )
