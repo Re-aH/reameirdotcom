@@ -25,7 +25,7 @@ const ReaMeirGroup = () => {
                 <div>
 
                     <p className="RMGtext1">
-                        The Rea Meir Group is a jazz fusion qurtet, featuring the EWI as the lead wind instrument. <br></br>
+                        The <span className="green">Rea Meir Group</span> is a jazz fusion qurtet, featuring the EWI as the lead wind instrument. <br></br>
                         Playing original music, as well as arrangements of tunes we love.
                     </p>
                     <h5 className="RMGtext">
@@ -37,7 +37,8 @@ const ReaMeirGroup = () => {
                         Yaniv Shalev - Bass<br></br>
                         Itay Hibsher - Drums</p>
 
-                    <h5 className="RMGtext">Our albums on Spotify:</h5>
+                    <h5 className="RMGtext">Our albums on <span className="green">
+                        Spotify:</span></h5>
                 </div>
             </div>
             <iframe className="spotifyPlayer" title="liveAlbum" src="https://open.spotify.com/embed/album/1AL0QjzoOSy8ZeRUR6yahc?utm_source=generator&theme=0" allowFullScreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

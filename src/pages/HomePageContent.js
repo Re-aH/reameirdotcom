@@ -14,8 +14,8 @@ const HomePageContent = () => {
                 <div className='homeText'>
                     <div className='myName'>Rea Meir</div><br />
                     <div className='homeText1'>
-                        Front-End Developer. <br />
-                        <span className='green'> Programmer.</span>  Musician.
+                        <span className='green'>Front-End Developer.</span> <br />
+                        Programmer.  Musician.
                     </div>
                     <div className='homeText2'>
                         Seeking balance between Creativity and Logic. <br />
