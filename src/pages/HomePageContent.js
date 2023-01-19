@@ -15,17 +15,17 @@ const HomePageContent = () => {
                     <div className='myName'>Rea Meir</div><br />
                     <div className='homeText1'>
                         Front-End Developer. <br />
-                        Programmer. Musician.
+                        <span className='green'> Programmer.</span>  Musician.
                     </div>
                     <div className='homeText2'>
                         Seeking balance between Creativity and Logic. <br />
                         Web-Developer. Composer for Film&Media. Saxophone, Flute and EWI player.
                     </div>
                 </div>
-            </div>
-            <div className='trim'>
-                <img src={profilePic} alt="Profile Pic" className='profilePic' />
+                <div className='trim'>
+                    <img src={profilePic} alt="Profile Pic" className='profilePic' />
 
+                </div>
             </div>
 
             <Footer />

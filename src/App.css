@@ -50,28 +50,36 @@ ul {
   margin-left: 50px;
 }
 .pageContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: stretch;
-}
-.intro {
   /* display: flex; */
-  /* justify-content: space-around; */
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+  /* align-items: stretch; */
+  /* height: 200px; */
+  position: absolute;
+  /* width: 100vw; */
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
   margin-top: 6%;
   height: 69.5vh;
+  /* width: 90vw; */
+  padding-bottom: 30px;
 }
 
 .trim {
-  position: absolute;
-  right: 65px;
-  top: 150px;
+  position: relative;
+  /* right: 65px; */
+  /* top: 150px; */
   overflow: hidden;
-  width: 45vw;
+  width: 40vw;
+  margin-right: 60px;
 }
 .profilePic {
   position: relative;
-  right: 120px;
+  right: 180px;
+  bottom: 20px;
   z-index: -2;
   width: 60vw;
   height: auto;
@@ -82,6 +90,7 @@ ul {
 .myName {
   font-size: 1.7rem;
   color: rgb(236, 236, 236);
+  padding-bottom: 20px;
   /* margin-bottom: 0px; */
   /* margin-block-start: 0em; */
   /* margin-block-end: 0em; */
@@ -91,13 +100,15 @@ ul {
 .homeText {
   margin-top: 0px;
   margin-left: 50px;
-  max-width: 60%;
+  /* margin-bottom: 20px; */
+  max-width: 50%;
   /* margin-block-start: 0em; */
   /* margin-block-end: 0em; */
 }
 
 .homeText1 {
   font-size: 3.2rem;
+  padding-bottom: 20px;
   /* margin-block-start: 0em; */
   /* margin-block-end: 0em; */
 }
@@ -106,7 +117,7 @@ ul {
   color: rgb(236, 236, 236);
   /* font-weight: 550; */
   /* margin: 12% auto 14%; */
-  max-width: 75%;
+  /* max-width: 75%; */
   margin-top: 30px;
   line-height: 1.6;
   /* margin-block-start: 0em; */
@@ -173,10 +184,12 @@ a {
 
 .contactLets {
   font-size: 2rem;
+  color: var(--third-color);
 }
 .contactInput {
   background-color: rgb(77, 76, 76);
   color: rgb(221, 221, 221);
+  min-width: 169px;
 }
 
 .contactMsg {
@@ -184,6 +197,10 @@ a {
   display: flex;
   align-items: stretch;
   gap: 10px;
+  min-height: 100px;
+}
+.green {
+  color: var(--third-color);
 }
 
 .contactName {
@@ -409,6 +426,8 @@ input[type="range"]:focus::-ms-fill-upper {
   right: 10%;
   left: 10%;
   width: 80%;
+  /* height: 60%; */
+  z-index: 2;
   background-color: var(--first-color);
   border: 2px solid var(--second-color);
   border-radius: 7px;
