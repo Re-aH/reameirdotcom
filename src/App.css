@@ -1,7 +1,7 @@
 :root {
   /* --first-color: rgb(248, 251, 197); */
-  --first-color: white;
-  --second-color: black;
+  --first-color: rgb(27, 27, 27);
+  --second-color: white;
 }
 
 body {
@@ -52,26 +52,26 @@ ul {
 .intro {
   display: flex;
   justify-content: space-around;
-  margin-top: 10%;
-  height: 65vh;
+  margin-top: 8%;
+  height: 69.5vh;
 }
 
 .profilePic {
-  width: 180px;
-  height: 180px;
-  margin-left: 20px;
+  width: 280px;
+  height: 280px;
+  margin-right: 50px;
 }
 
 .myName {
   font-size: 1.7rem;
-  margin-bottom: 0px;
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  color: rgb(236, 236, 236);
+  /* margin-bottom: 0px; */
+  /* margin-block-start: 0em; */
+  /* margin-block-end: 0em; */
   /* margin-left: 20px; */
 }
 
 .homeText {
-  font-size: 2.8rem;
   margin-top: 0px;
   margin-left: 50px;
   max-width: 60%;
@@ -80,11 +80,13 @@ ul {
 }
 
 .homeText1 {
-  margin-block-start: 0em;
-  margin-block-end: 0em;
+  font-size: 3.2rem;
+  /* margin-block-start: 0em; */
+  /* margin-block-end: 0em; */
 }
 .homeText2 {
   font-size: 1.7rem;
+  color: rgb(236, 236, 236);
   /* font-weight: 550; */
   /* margin: 12% auto 14%; */
   max-width: 75%;
@@ -135,21 +137,27 @@ a {
 
 .contactForm {
   height: 60vh;
-  border: 1px solid rgb(187, 187, 187);
+  width: 57vw;
+  /* border: 1px solid rgb(187, 187, 187); */
   margin: 20px;
   display: flex;
   flex-direction: column;
   gap: 10px 10px;
-  background-color: rgb(99, 99, 99);
-  border-radius: 4px;
+  /* background-color: rgb(99, 99, 99); */
+  /* border-radius: 4px; */
 }
 
 .contactForm > div {
   margin: 10px;
+  margin-left: 50px;
 }
 
-.contactLable {
-  color: var(--first-color);
+.contactLets {
+  font-size: 2rem;
+}
+.contactInput {
+  background-color: rgb(77, 76, 76);
+  color: rgb(221, 221, 221);
 }
 
 .contactMsg {
@@ -178,14 +186,15 @@ textarea {
   align-self: flex-end;
   margin: 0 10px 10px;
   background-color: var(--first-color);
+  color: rgb(200, 200, 200);
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 5px;
-  border-color: rgb(110, 110, 110);
+  border-color: rgb(246, 246, 246);
 }
 .contactBtn:hover {
   cursor: pointer;
-  background-color: rgb(45, 44, 44);
-  color: var(--first-color);
+  /* background-color: rgb(45, 44, 44); */
+  color: var(--second-color);
 }
 
 .thankyoupage {
@@ -211,7 +220,7 @@ textarea {
   display: inline-block;
   margin-left: 13.9125%;
   font-size: 3rem;
-  color: rgb(3, 3, 163);
+  color: rgb(225, 225, 225);
 }
 .groupPic {
   display: block;
@@ -234,7 +243,7 @@ textarea {
   width: 75%;
   line-height: 1.6;
   font-size: 1.1rem;
-  color: rgb(40, 40, 40);
+  color: rgb(222, 222, 222);
 }
 .RMGtext1 {
   margin: 0px auto 20px;
@@ -242,7 +251,7 @@ textarea {
   width: 75%;
   line-height: 1.6;
   font-size: 1.1rem;
-  color: rgb(40, 40, 40);
+  color: rgb(222, 222, 222);
 }
 .spotifyPlayer {
   display: block;
@@ -388,11 +397,11 @@ input[type="range"]:focus::-ms-fill-upper {
   top: 10px;
   left: 10px;
   font-weight: 600;
-  color: rgb(45, 44, 44);
-  /* border: 1px solid var(--second-color); */
+  color: rgb(216, 216, 216);
+  border: 1px solid var(--second-color);
   border-radius: 3px;
   padding: 2px;
-  background-color: rgb(187, 187, 187);
+  background-color: rgb(44, 44, 44);
   z-index: 1;
   box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
@@ -406,11 +415,11 @@ input[type="range"]:focus::-ms-fill-upper {
 .welcomeBtn {
   font-weight: 600;
   font-size: 1.4rem;
-  /* border: 1px solid var(--second-color); */
-  color: rgb(45, 44, 44);
-  border-radius: 3px;
+  border: 1px solid var(--second-color);
+  color: rgb(223, 223, 223);
+  border-radius: 12px;
   padding: 7px;
-  background-color: rgb(23, 136, 153);
+  background-color: var(--first-color);
   display: inline-block;
   left: 40.5%;
   position: relative;
@@ -421,7 +430,7 @@ input[type="range"]:focus::-ms-fill-upper {
 }
 .welcomeBtn:hover {
   cursor: pointer;
-  color: var(--first-color);
+  color: white;
 }
 
 .coverImg {
@@ -437,7 +446,7 @@ input[type="range"]:focus::-ms-fill-upper {
   padding: 10px 30px 10px 35px;
   line-height: 1.5;
   font-size: 1.35rem;
-  color: rgb(64, 64, 64);
+  color: rgb(208, 208, 208);
 }
 
 .bb {
@@ -473,7 +482,7 @@ input[type="range"]:focus::-ms-fill-upper {
   width: fit-content;
   /* line-height: 1.5; */
   font-size: 1.1rem;
-  color: rgb(64, 64, 64);
+  color: rgb(154, 154, 154);
   display: inline-block;
   margin: 3px;
 }
@@ -482,17 +491,18 @@ input[type="range"]:focus::-ms-fill-upper {
   font-weight: 600;
   font-size: 1.1rem;
   /* border: 1px solid var(--second-color); */
-  color: rgb(45, 44, 44);
-  border-radius: 3px;
-  padding: 7px;
-  background-color: rgb(23, 136, 153);
+  color: rgb(205, 205, 205);
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 5px;
+  /* background-color: rgb(23, 136, 153); */
   display: inline-block;
   margin: 3px;
-  box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75); */
 }
 .coockieBtn:hover {
   cursor: pointer;
-  color: var(--first-color);
+  color: var(--second-color);
 }

@@ -28,21 +28,23 @@ function ContactForm() {
                 <title>Rea Meir</title>
                 <meta name="description" content="Contact Rea Meir - Saxophonist, Composer for Film&Media, Ewi player and Web developer." />
             </Helmet>
+            <div className="contactLets">Let's talk</div>
+            <div className="byMail">Get in touch via the form below, or by emailing rea.meir@gmail.com</div>
             <div className='contactName'>
                 <label className="contactLable" htmlFor="name">Name:     </label>
-                <input type="text" name="name"
+                <input type="text" name="name" className="contactInput"
                 // value={name} onChange={onChange}
                 />
             </div>
             <div className='contactMail'>
                 <label className="contactLable" htmlFor="email">Email:   </label>
-                <input type="email" name="email"
+                <input type="email" name="email" className="contactInput"
                 // value={email} onChange={onChange}
                 />
             </div >
             <div className='contactMsg'>
                 <label className="contactLable" htmlFor="message">Message:  </label>
-                <textarea name="message"
+                <textarea name="message" className="contactInput"
                 // value={message} onChange={onChange} 
                 />
             </div>
