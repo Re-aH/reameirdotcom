@@ -23,7 +23,10 @@ const HomePageContent = () => {
                     </div>
                 </div>
             </div>
-            <img src={profilePic} alt="Profile Pic" className='profilePic' />
+            <div className='trim'>
+                <img src={profilePic} alt="Profile Pic" className='profilePic' />
+
+            </div>
 
             <Footer />
         </div>
