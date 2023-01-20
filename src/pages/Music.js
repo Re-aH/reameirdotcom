@@ -77,7 +77,7 @@ const Music = () => {
                 img="../musicfiles/Mindsets/MINDSETS-Rea Meir.jpg"
                 src="../musicfiles/Mindsets/Comic Chase.wav"
                 title="Comic Chase"
-                genre="Comedy, Gypsy Swing"
+                genre="Gypsy Swing"
                 handlePlay={handlePlay}
                 currentlyPlaying={currentlyPlaying}
             />
@@ -131,7 +131,7 @@ const Music = () => {
                 img="../musicfiles/Mindsets/MINDSETS-Rea Meir.jpg"
                 src="../musicfiles/Mindsets/Party Groove.wav"
                 title="Party Groove"
-                genre="Drum&Bass, Horns"
+                genre="Drum&Bass"
                 handlePlay={handlePlay}
                 currentlyPlaying={currentlyPlaying}
             />
@@ -140,7 +140,7 @@ const Music = () => {
                 img="../musicfiles/Mindsets/MINDSETS-Rea Meir.jpg"
                 src="../musicfiles/Mindsets/Reflection of Kindness.wav"
                 title="Reflection of Kindness"
-                genre="Piano, Strings"
+                genre="Piano,Strings"
                 handlePlay={handlePlay}
                 currentlyPlaying={currentlyPlaying}
             />
@@ -239,7 +239,7 @@ const Music = () => {
                 img="../musicfiles/PianoStringMoods/piano and string moods.jpg"
                 src="../musicfiles/PianoStringMoods/the way it used to be.wav"
                 title="The Way It Used To Be"
-                genre="Waltz, Piano"
+                genre="Waltz,Piano"
                 handlePlay={handlePlay}
                 currentlyPlaying={currentlyPlaying}
             />
