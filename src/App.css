@@ -49,6 +49,71 @@ ul {
 .left {
   margin-left: 50px;
 }
+
+@keyframes showHam {
+  from {
+    height: 64px;
+  }
+  to {
+    height: 480px;
+  }
+}
+
+@keyframes hideHam {
+  from {
+    height: 480px;
+  }
+  to {
+    height: 64px;
+  }
+}
+
+.show {
+  animation-name: showHam;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+.hide {
+  animation-name: hideHam;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+.ham {
+  height: 64px;
+  overflow: hidden;
+}
+
+.hamImg {
+  filter: invert();
+  float: right;
+}
+.ham-items > li {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.ham-items > li:hover {
+  background-color: var(--second-color);
+  color: var(--first-color);
+  border-radius: 10px;
+}
+.burg {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .burg {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+}
+
 .pageContent {
   /* display: flex; */
   /* flex-direction: column; */
@@ -530,22 +595,23 @@ input[type="range"]:focus::-ms-fill-upper {
   color: rgb(154, 154, 154);
   display: inline-block;
   margin: 3px;
+  vertical-align: middle;
+  text-align: justify;
 }
 
 .coockieBtn {
+  /* vertical-align: auto; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
   font-weight: 600;
   font-size: 1.1rem;
-  /* border: 1px solid var(--second-color); */
   color: rgb(205, 205, 205);
   border-radius: 10px;
   border: 2px solid white;
   padding: 5px;
-  /* background-color: rgb(23, 136, 153); */
-  display: inline-block;
   margin: 3px;
-  /* box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75); */
 }
 .coockieBtn:hover {
   cursor: pointer;
