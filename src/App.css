@@ -440,7 +440,7 @@ input[type="range"]:focus::-ms-fill-upper {
   position: relative;
   top: 10px;
   left: 10px;
-  font-weight: 500;
+  font-weight: 600;
   color: rgb(216, 216, 216);
   border: 1px solid var(--second-color);
   border-radius: 3px;
@@ -457,8 +457,8 @@ input[type="range"]:focus::-ms-fill-upper {
   padding: 3px;
 }
 .welcomeBtn {
-  font-weight: 500;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 1.4rem;
   border: 1px solid var(--second-color);
   color: rgb(223, 223, 223);
   border-radius: 12px;
@@ -487,10 +487,9 @@ input[type="range"]:focus::-ms-fill-upper {
 }
 
 .onkeyText {
-  padding: 10px 15px 10px 9%;
-  /* margin: 0 auto; */
+  padding: 10px 30px 10px 35px;
   line-height: 1.5;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   color: rgb(208, 208, 208);
 }
 
