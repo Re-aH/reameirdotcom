@@ -27,7 +27,7 @@ const Header = () => {
 
     }
     return (
-        <header >
+        <div >
             <nav className='nav'>
                 <ul className='nav-items left'>
                     <li><Link to="/">Home</Link></li>
@@ -73,7 +73,7 @@ const Header = () => {
 
                 </div>
             </div>
-        </header >
+        </div >
     )
 }
 
