@@ -105,20 +105,12 @@ ul {
 .burg {
   display: none;
 }
-@media screen and (max-width: 600px) {
-  .burg {
-    display: block;
-  }
-  .nav {
-    display: none;
-  }
-}
 
 .pageContent {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  height: 90vh;
+  justify-content: space-between;
+  height: fit-content;
   margin: 2px;
 }
 
@@ -126,7 +118,7 @@ ul {
   display: flex;
   justify-content: space-between;
   margin-top: 6%;
-  height: 69.5vh;
+  height: fit-content;
   /* width: 90vw; */
   padding-bottom: 30px;
 }
@@ -345,7 +337,7 @@ textarea {
   align-items: center;
   height: 50px;
   justify-content: space-between;
-  width: 72.175%;
+  width: 87%;
   margin: 1px auto;
 }
 
@@ -580,4 +572,63 @@ input[type="range"]:focus::-ms-fill-upper {
 .coockieBtn:hover {
   cursor: pointer;
   color: var(--second-color);
+}
+
+@media screen and (max-width: 600px) {
+  .burg {
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+  .intro {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .pageContent {
+    height: fit-content;
+  }
+  .profilePic {
+    right: 0;
+    width: 100%;
+    /* order: 2; */
+  }
+  .trim {
+    margin-left: 50px;
+    max-width: 80%;
+    width: 75%;
+    margin-top: 20px;
+    order: 1;
+  }
+  .homeText {
+    width: 75%;
+    max-width: 80%;
+    order: 2;
+  }
+
+  .progTime {
+    display: none;
+  }
+  .volume {
+    display: none;
+  }
+  .progSlider {
+    display: none;
+  }
+  .trackTitleAlbum {
+    width: 67%;
+    justify-content: space-between;
+  }
+  .musicComp {
+    width: 90%;
+  }
+  .genre {
+    text-align: left;
+  }
+  .onkeyWelcome {
+    top: 8%;
+  }
+  .ewiImg {
+    display: none;
+  }
 }

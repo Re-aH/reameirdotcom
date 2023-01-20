@@ -71,7 +71,7 @@ const MusicComp = (props) => {
                 >
                 </input>
             </div>
-            <div>
+            <div className="progTime">
                 {Math.floor(progress / 60).toString().padStart(2, '0')}:{Math.floor(progress - (Math.floor(progress / 60) * 60)).toString().padStart(2, '0')}
                 /
                 {Math.floor(duration / 60).toString().padStart(2, '0')}:{Math.floor(duration - (Math.floor(duration / 60) * 60)).toString().padStart(2, '0')}
