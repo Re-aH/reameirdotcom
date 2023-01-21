@@ -50,7 +50,7 @@ function ContactForm() {
             </div>
             <input type="hidden" name="_captcha" value="false" />
             {/* insert thank you page link */}
-            <input type="hidden" name="_next" value="https://reameir.com/thankyou.html"></input>
+            <input type="hidden" name="_next" value="https://reameir.com/thankyou"></input>
             <button className="contactBtn" type="submit">Submit</button>
         </form>
     );
