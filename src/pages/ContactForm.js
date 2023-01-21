@@ -29,7 +29,7 @@ function ContactForm() {
                 <meta name="description" content="Contact Rea Meir - Saxophonist, Composer for Film&Media, Ewi player and Web developer." />
             </Helmet>
             <div className="contactLets">Let's talk</div>
-            <div className="byMail">Write here or mail to <span className="green">rea.meir@gmail.com</span></div>
+            <div className="byMail">Write here or mail to <a href="mailto:rea.meir@gmail.com" className="green">rea.meir@gmail.com</a></div>
             <div className='contactName'>
                 <label className="contactLable" htmlFor="name">Name:     </label>
                 <input type="text" name="name" className="contactInput"
