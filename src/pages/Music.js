@@ -19,7 +19,7 @@ const Music = () => {
                 <meta name="description" content="Portfolio for Rea Meir - FilmScoring music demos, of composer Rea Meir. Music for Film&Media, Library music." />
             </Helmet>
             <div className='artlist'>
-                Tracks are available for download and licensing at <a href='https://artlist.io/artist/563/rea-meir' target="_blank" rel="noreferrer"><img src='./images/Artlist.png' alt='Artlist' className='artlistImg'></img><span className='yellow'>.io</span></a>
+                Most tracks are available for download and licensing at <a href='https://artlist.io/artist/563/rea-meir' target="_blank" rel="noreferrer"><img src='./images/Artlist.png' alt='Artlist' className='artlistImg'></img><span className='yellow'>.io</span></a>
             </div>
             <MusicComp
                 id="player2"
