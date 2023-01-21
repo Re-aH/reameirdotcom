@@ -2,6 +2,7 @@ import MusicComp from './musicComp';
 import Footer from '../Footer';
 import { useState } from "react";
 import { Helmet } from 'react-helmet';
+// import Artlist from './pages/Artlist.png'
 
 const Music = () => {
     const [currentlyPlaying, setCurrentlyPlaying] = useState(null);
@@ -17,6 +18,9 @@ const Music = () => {
                 <title>Rea Meir Music</title>
                 <meta name="description" content="Portfolio for Rea Meir - FilmScoring music demos, of composer Rea Meir. Music for Film&Media, Library music." />
             </Helmet>
+            <div className='artlist'>
+                Tracks are available for download and licensing at <a href='https://artlist.io/artist/563/rea-meir' target="_blank" rel="noreferrer"><img src='./images/Artlist.png' alt='Artlist' className='artlistImg'></img><span className='yellow'>.io</span></a>
+            </div>
             <MusicComp
                 id="player2"
                 img="https://i1.sndcdn.com/artworks-000439786980-kakcvy-t500x500.jpg"

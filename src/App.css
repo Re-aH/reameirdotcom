@@ -341,6 +341,19 @@ textarea {
   margin: 1px auto;
 }
 
+.artlist {
+  display: block;
+  width: fit-content;
+  margin: 15px auto;
+  font-size: 1.2rem;
+}
+.artlistImg {
+  height: 1rem;
+}
+.yellow {
+  color: rgb(255, 210, 8);
+}
+
 .trackArt {
   height: 40px;
   width: 40px;
@@ -621,6 +634,12 @@ input[type="range"]:focus::-ms-fill-upper {
   }
   .musicComp {
     width: 90%;
+  }
+  .artlist {
+    /* display: block; */
+    width: 75%;
+    /* margin: 15px auto; */
+    /* font-size: 1.2rem; */
   }
   .genre {
     text-align: left;
