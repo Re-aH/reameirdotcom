@@ -32,7 +32,7 @@ body {
 .nav-items > li:hover {
   background-color: var(--second-color);
   color: var(--first-color);
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 ul {
@@ -102,7 +102,7 @@ ul {
 .ham-items > li:hover {
   background-color: var(--second-color);
   color: var(--first-color);
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 .burg {
   display: none;
@@ -296,15 +296,16 @@ textarea {
   width: 80px;
   align-self: flex-end;
   margin: 0 10px 10px;
-  background-color: var(--first-color);
-  color: rgb(200, 200, 200);
+  background-color: var(--second-color);
+  color: var(--first-color);
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 5px;
-  border-color: rgb(246, 246, 246);
+  padding: 2px;
+  /* border-radius: 5px; */
+  /* border-color: rgb(246, 246, 246); */
 }
 .contactBtn:hover {
   cursor: pointer;
-  color: var(--second-color);
+  background-color: rgb(163, 163, 163);
 }
 
 .thankyoupage {
@@ -502,16 +503,16 @@ input[type="range"]:focus::-ms-fill-upper {
 .onkeyWelcome {
   position: absolute;
   top: 13%;
-  right: 10%;
-  left: 10%;
-  width: 80%;
+  /* right: 0%; */
+  left: 25%;
+  width: 50%;
   z-index: 2;
   background-color: var(--first-color);
-  border: 2px solid var(--second-color);
-  border-radius: 7px;
-  box-shadow: 1px -1px 15px 2px rgba(0, 0, 0, 0.75);
+  /* border: 2px solid var(--second-color); */
+  /* border-radius: 7px; */
+  /* box-shadow: 1px -1px 15px 2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -1px 15px 2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px -1px 15px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 15px 2px rgba(0, 0, 0, 0.75); */
 }
 
 .xBtn {
@@ -520,39 +521,40 @@ input[type="range"]:focus::-ms-fill-upper {
   left: 10px;
   font-weight: 600;
   color: rgb(216, 216, 216);
-  border: 1px solid var(--second-color);
-  border-radius: 3px;
+  /* border: 1px solid var(--second-color); */
+  /* border-radius: 3px; */
   padding: 2px;
   background-color: rgb(44, 44, 44);
   z-index: 1;
-  box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75); */
 }
 
 .xBtn:hover {
   cursor: pointer;
-  padding: 3px;
+  /* padding: 3px; */
 }
 .welcomeBtn {
-  font-weight: 600;
-  font-size: 1.4rem;
+  font-weight: 500;
+  font-size: 1rem;
   border: 1px solid var(--second-color);
   color: rgb(223, 223, 223);
-  border-radius: 12px;
+  /* border-radius: 12px; */
   padding: 7px;
   background-color: var(--first-color);
   display: inline-block;
   left: 40.5%;
   position: relative;
   margin-bottom: 10px;
-  box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
+  /* box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px -1px 15px 0px rgba(0, 0, 0, 0.75); */
 }
 .welcomeBtn:hover {
   cursor: pointer;
-  color: white;
+  color: var(--first-color);
+  background-color: var(--second-color);
 }
 
 .coverImg {
@@ -567,7 +569,7 @@ input[type="range"]:focus::-ms-fill-upper {
 .onkeyText {
   padding: 10px 30px 10px 35px;
   line-height: 1.5;
-  font-size: 1.35rem;
+  font-size: 1rem;
   color: rgb(208, 208, 208);
 }
 
