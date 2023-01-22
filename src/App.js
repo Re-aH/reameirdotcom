@@ -22,6 +22,8 @@ const App = () => {
                 <Route path="/" element={<HomePageContent />} />
                 <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                 <Route path="/onkeylite" element={<OnKeyLite />} />
+                {/* to not brake google results */}
+                <Route path="/onkey" element={<OnKeyLite />} />
                 <Route path="/contact" element={<ContactForm />} />
                 <Route path="/thankyou" element={<Thankyou />} />
                 <Route path="/music" element={<Music />} />
