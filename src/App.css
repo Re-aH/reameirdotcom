@@ -646,9 +646,12 @@ input[type="range"]:focus::-ms-fill-upper {
     text-align: left;
   }
   .onkeyWelcome {
-    top: 8%;
+    top: 71px;
   }
   .ewiImg {
     display: none;
+  }
+  .coockieMsg {
+    flex-direction: column;
   }
 }
