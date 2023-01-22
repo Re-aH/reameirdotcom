@@ -69,7 +69,7 @@ const Header = () => {
                 <div className="coockieText">We collect cookies to analyze our website traffic & performance; we never collect any personal data.
                 </div>
                 <div className="coockieBtn" onClick={closeWelcomeMsg}>
-                    <div >Accept coockies</div>
+                    <div >Accept cookies</div>
 
                 </div>
             </div>
