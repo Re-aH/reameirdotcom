@@ -1,5 +1,5 @@
 import Footer from '../Footer';
-import profilePic from '../images/profilepic2.jpg'
+import profilePic from '../images/IMG_3945.jpg'
 import { Helmet } from 'react-helmet';
 
 const HomePageContent = () => {
@@ -12,20 +12,24 @@ const HomePageContent = () => {
             <div className='intro'>
 
                 <div className='homeText'>
-                    <div className='myName'>Rea Meir</div><br />
-                    <div className='homeText1'>
-                        <span className='green'>Front-End Developer.</span> <br />
-                        Programmer.  Musician.
-                    </div>
+                    <div className='myName'>I'm Rea</div>
+                    <h1 className='homeText1'>
+                        Front-End  Developer.<br />
+                        Musician.
+                    </h1>
                     <div className='homeText2'>
-                        Seeking balance between Creativity and Logic. <br />
-                        Web-Developer. Composer for Film&Media. Saxophone, Flute and EWI player.
+                        Seeking balance between logic and creativity. <br />
+                        Autodidact, multidisciplinary web developer. <br />
+                        The muscle and the brain behind <span className='green'> OnKey</span> and <span className='green'> UpBeat</span> apps. <br />
+                        Music Composer & Wind Player.
+
                     </div>
                 </div>
-                <div className='trim'>
-                    <img src={profilePic} alt="Profile Pic" className='profilePic' />
 
-                </div>
+            </div>
+            <div className='trim2'>
+                <img src={profilePic} alt="Profile Pic" className='profilePic2' />
+
             </div>
 
             <Footer />
