@@ -234,6 +234,11 @@ iframe {
   border: none;
 }
 
+.upbeat {
+  display: block;
+  max-width: 550px;
+  margin: 0 auto;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -302,10 +307,12 @@ textarea {
   padding: 2px;
   /* border-radius: 5px; */
   /* border-color: rgb(246, 246, 246); */
+  border: none;
 }
 .contactBtn:hover {
   cursor: pointer;
-  background-color: rgb(163, 163, 163);
+  background-color: var(--first-color);
+  color: var(--second-color);
 }
 
 .thankyoupage {
@@ -563,7 +570,7 @@ input[type="range"]:focus::-ms-fill-upper {
   position: relative;
   top: -19px;
   z-index: 0;
-  border-radius: 7px 7px 0px 0px;
+  /* border-radius: 7px 7px 0px 0px; */
 }
 
 .onkeyText {
