@@ -746,4 +746,7 @@ input[type="range"]:focus::-ms-fill-upper {
   .homeText1 {
     max-width: 60%;
   }
+  .trim2 {
+    height: 100vh;
+  }
 }
