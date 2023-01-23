@@ -1,10 +1,10 @@
-import Spotify from './images/Spotify_icon.png'
+// import Spotify from './images/Spotify_icon.png'
 import YouTube from './images/YouTube_icon.png'
 import FaceBook from './images/Facebook_icon.png'
 import Linked from './images/Linked_icon.png'
-import Imdb from './images/imdb_icon.png'
-import AppStore from './images/app-store_icon.png'
-import GooglePlay from './images/google_play_icon.png'
+// import Imdb from './images/imdb_icon.png'
+// import AppStore from './images/app-store_icon.png'
+// import GooglePlay from './images/google_play_icon.png'
 
 
 const socialLinks = () => {
