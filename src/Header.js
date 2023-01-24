@@ -3,6 +3,31 @@ import hamImg from './images/ham-menu-64.png'
 
 const Header = () => {
 
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+
+    function dispDropItems() {
+        if (document.querySelector(".dropdown").classList.contains('showDrop')) {
+            hideDropItems()
+        }
+        else {
+            document.querySelector(".dropdown").classList.add('showDrop')
+            document.querySelector(".dropdown").classList.remove('hideDrop')
+        }
+    }
+
+    function hideDropItems() {
+        document.querySelector(".dropdown").classList.remove('showDrop')
+        document.querySelector(".dropdown").classList.add('hideDrop')
+    }
+
+
+
+
+    // Close the dropdown menu if the user clicks outside of it
+
+
+
     function dipsHamItems() {
         if (document.querySelector(".ham").classList.contains('show')) {
             hideHamItems()
@@ -36,6 +61,17 @@ const Header = () => {
                     <li><Link to="/music">Music</Link></li>
                     <li><Link to="/videos">Videos</Link></li>
                     <li><Link to="/reameirgroup">Rea Meir Group</Link></li>
+                    {/* <div className="dropdown hideDrop">
+                        <li className="dropbtn" onClick={dispDropItems}>Apps</li>
+                        <li onClick={hideDropItems}><Link to="/onkeylite">OnKey</Link></li>
+                        <li onClick={hideDropItems}><Link to="/upbeatmetronome">Upbeat-Metronome</Link></li>
+                    </div>
+                    <div className="dropdown hideDrop">
+                        <li className="dropbtn" onClick={dispDropItems}>Music</li>
+                        <li><Link to="/music">Audio</Link></li>
+                        <li><Link to="/videos">Video</Link></li>
+                        <li><Link to="/reameirgroup">Rea Meir Group</Link></li>
+                    </div> */}
                 </ul>
                 <ul className='nav-items right'>
                     <li><Link to="/contact">Contact</Link></li>
