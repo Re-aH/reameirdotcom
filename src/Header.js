@@ -6,20 +6,20 @@ const Header = () => {
     /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 
-    function dispDropItems() {
-        if (document.querySelector(".dropdown").classList.contains('showDrop')) {
-            hideDropItems()
-        }
-        else {
-            document.querySelector(".dropdown").classList.add('showDrop')
-            document.querySelector(".dropdown").classList.remove('hideDrop')
-        }
-    }
+    // function dispDropItems() {
+    //     if (document.querySelector(".dropdown").classList.contains('showDrop')) {
+    //         hideDropItems()
+    //     }
+    //     else {
+    //         document.querySelector(".dropdown").classList.add('showDrop')
+    //         document.querySelector(".dropdown").classList.remove('hideDrop')
+    //     }
+    // }
 
-    function hideDropItems() {
-        document.querySelector(".dropdown").classList.remove('showDrop')
-        document.querySelector(".dropdown").classList.add('hideDrop')
-    }
+    // function hideDropItems() {
+    //     document.querySelector(".dropdown").classList.remove('showDrop')
+    //     document.querySelector(".dropdown").classList.add('hideDrop')
+    // }
 
 
 
