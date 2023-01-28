@@ -6,22 +6,43 @@ const Header = () => {
     /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 
-    // function dispDropItems() {
-    //     if (document.querySelector(".dropdown").classList.contains('showDrop')) {
-    //         hideDropItems()
-    //     }
-    //     else {
-    //         document.querySelector(".dropdown").classList.add('showDrop')
-    //         document.querySelector(".dropdown").classList.remove('hideDrop')
-    //     }
-    // }
+    function dispDropItems() {
+        if (document.querySelector(".dropdown").classList.contains('showDrop')) {
+            hideDropItems()
+        }
+        else {
+            document.querySelector(".dropdown").classList.add('showDrop')
+            document.querySelector(".dropdown").classList.remove('hideDrop')
+            hideMusDropItems()
+        }
+    }
 
-    // function hideDropItems() {
-    //     document.querySelector(".dropdown").classList.remove('showDrop')
-    //     document.querySelector(".dropdown").classList.add('hideDrop')
-    // }
+    function hideDropItems() {
+        document.querySelector(".dropdown").classList.remove('showDrop')
+        document.querySelector(".dropdown").classList.add('hideDrop')
+    }
 
+    function dispMusDropItems() {
+        if (document.querySelector(".musDrop").classList.contains('showDrop')) {
+            hideMusDropItems()
+        }
+        else {
+            document.querySelector(".musDrop").classList.add('showDrop')
+            document.querySelector(".musDrop").classList.remove('hideDrop')
+            hideDropItems()
 
+        }
+    }
+
+    function hideMusDropItems() {
+        document.querySelector(".musDrop").classList.remove('showDrop')
+        document.querySelector(".musDrop").classList.add('hideDrop')
+    }
+
+    function hideBothDrops() {
+        hideDropItems()
+        hideMusDropItems()
+    }
 
 
     // Close the dropdown menu if the user clicks outside of it
@@ -55,26 +76,26 @@ toggle between hiding and showing the dropdown content */
         <div >
             <nav className='nav'>
                 <ul className='nav-items left'>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/onkeylite">OnKey</Link></li>
+                    <li className='home' onClick={hideBothDrops}><Link to="/">Home</Link></li>
+                    {/* <li><Link to="/onkeylite">OnKey</Link></li>
                     <li><Link to="/upbeatmetronome">Upbeat-Metronome</Link></li>
                     <li><Link to="/music">Music</Link></li>
                     <li><Link to="/videos">Videos</Link></li>
-                    <li><Link to="/reameirgroup">Rea Meir Group</Link></li>
-                    {/* <div className="dropdown hideDrop">
+                    <li><Link to="/reameirgroup">Rea Meir Group</Link></li> */}
+                    <div className="dropdown hideDrop">
                         <li className="dropbtn" onClick={dispDropItems}>Apps</li>
                         <li onClick={hideDropItems}><Link to="/onkeylite">OnKey</Link></li>
-                        <li onClick={hideDropItems}><Link to="/upbeatmetronome">Upbeat-Metronome</Link></li>
+                        <li onClick={hideDropItems}><Link to="/upbeatmetronome">UpBeat </Link></li>
                     </div>
-                    <div className="dropdown hideDrop">
-                        <li className="dropbtn" onClick={dispDropItems}>Music</li>
-                        <li><Link to="/music">Audio</Link></li>
-                        <li><Link to="/videos">Video</Link></li>
-                        <li><Link to="/reameirgroup">Rea Meir Group</Link></li>
-                    </div> */}
+                    <div className="dropdown hideDrop musDrop">
+                        <li className="dropbtn" onClick={dispMusDropItems}>Music</li>
+                        <li onClick={hideMusDropItems}><Link to="/music">Audio</Link></li>
+                        <li onClick={hideMusDropItems}><Link to="/videos">Video</Link></li>
+                        <li onClick={hideMusDropItems}><Link to="/reameirgroup">Rea Meir Group</Link></li>
+                    </div>
                 </ul>
                 <ul className='nav-items right'>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li onClick={hideBothDrops}><Link to="/contact">Contact</Link></li>
                 </ul>
 
             </nav>

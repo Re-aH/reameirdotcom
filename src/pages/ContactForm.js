@@ -2,27 +2,12 @@
 import { Helmet } from "react-helmet";
 
 function ContactForm() {
-    /*
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        message: '',
-    });
 
-    const { name, email, message } = formData;
 
-    const onChange = (e) =>
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-
-    const onSubmit = (e) => {
-        e.preventDefault();
-        // submit formData to backend, etc.
-    };
-*/
     return (
         <form action="https://formsubmit.co/8f7c35f0c352b054e97b572a83e82de9"
             method="POST" className='contactForm'
-        // onSubmit={onSubmit}
+        // onSubmit={onSubmit} 
         >
             <Helmet>
                 <title>Rea Meir</title>
@@ -51,7 +36,7 @@ function ContactForm() {
             <input type="hidden" name="_captcha" value="false" />
             {/* insert thank you page link */}
             <input type="hidden" name="_next" value="https://reameir.com/thankyou"></input>
-            <button className="contactBtn" type="submit">Submit</button>
+            <button className="contactBtn" type="submit">Send</button>
         </form>
     );
 }

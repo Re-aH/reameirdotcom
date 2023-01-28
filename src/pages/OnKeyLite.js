@@ -20,7 +20,7 @@ const OnKeyLite = () => {
                 <span className="bb">An exercise generator that will give you the <em> NOTES</em> for your daily practice.</span><br />
                 <span className="cc">Focus on execution, the <em>HOW</em>, and less on <em>WHAT</em> to play.</span><br />
                 <span className="dd">Minimize the need for paper or method books.</span> <br />
-                <span className="ee">a <em>FREE</em> version called "OnKeyLite" is available both here and on the App Store and Google Play.</span> </div>
+                <span className="ee">a <em>FREE</em> version called "OnKeyLite" is available both here and on the <a href="https://apps.apple.com/us/app/onkey-lite-scale-practice/id1638630839" rel="noreferrer" target="_blank" className="green">App Store</a>  and <a href="https://play.google.com/store/apps/details?id=com.reameir.onkeylite" rel="noreferrer" target="_blank" className="green">Google Play.</a></span> </div>
             <btn className="welcomeBtn" onClick={closeWelcomeMsg}>Try OnKeyLite</btn>
         </div>
         <iframe title="OnKeyLite" src="https://re-ah.github.io/onkeyliteweb/"></iframe>
