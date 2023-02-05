@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import hamImg from './images/ham-menu-64.png'
+import { useEffect, } from 'react'
 
 const Header = () => {
 
@@ -46,7 +47,22 @@ toggle between hiding and showing the dropdown content */
 
 
     // Close the dropdown menu if the user clicks outside of it
+    useEffect(() => {
+        const handleClick = (event) => {
+            if (!event.target.classList.contains('dropbtn')) {
+                hideBothDrops();
+                // console.log('clicked else where');
+            }
+        };
 
+        window.addEventListener('click', handleClick);
+        // const iframeDoc = iframeRef.current.contentDocument;
+        // iframeDoc.addEventListener('click', handleClick)
+        return () => {
+            window.removeEventListener('click', handleClick);
+            // iframeDoc.removeEventListener('click', handleClick);
+        };
+    },);
 
 
     function dipsHamItems() {

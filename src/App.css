@@ -177,7 +177,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   height: fit-content;
-  min-height: 86vh;
+  min-height: 89vh;
   margin: 2px;
   /* max-width: 1852px; */
 }
@@ -574,7 +574,7 @@ input[type="range"]:focus::-ms-fill-upper {
 
 .onkeyWelcome {
   position: absolute;
-  top: 13%;
+  top: 14%;
   /* right: 0%; */
   left: 25%;
   margin: auto;
@@ -727,10 +727,7 @@ input[type="range"]:focus::-ms-fill-upper {
     flex-direction: column;
     height: fit-content;
   }
-  .pageContent {
-    height: fit-content;
-    /* min-height: ; */
-  }
+
   .profilePic {
     right: 0;
     width: 100%;
@@ -833,9 +830,5 @@ input[type="range"]:focus::-ms-fill-upper {
   }
   .trim2 {
     height: 600px;
-  }
-  .pageContent {
-    height: fit-content;
-    min-height: 118vh;
   }
 }

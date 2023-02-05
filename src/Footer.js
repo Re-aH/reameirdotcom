@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     function privacyPolicyClicked() {
-        console.log('PrivacyPolicy was clicked!!');
+        // console.log('PrivacyPolicy was clicked!!');
     }
 
     return (
