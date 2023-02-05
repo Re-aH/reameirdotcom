@@ -13,7 +13,7 @@ const OnKeyLite = () => {
             <meta name="description" content="An exercise generator, designed to aid with scale and chord practice for musicians of all levels." />
         </Helmet>
         <div className="onkeyWelcome">
-            <btn className="xBtn" onClick={closeWelcomeMsg}>X</btn>
+            <button className="xBtn" onClick={closeWelcomeMsg}>X</button>
             <img alt="cover" src="../images/onkeycover.jpg" className="coverImg"></img>
             {/* <h1 className="onkeyHeader">OnKey - Scale Practice</h1> */}
             <div className="onkeyText"><span className="aa">"OnKey - Scale Practice" - designed to aid with scale and chord practice for musicians of all levels.</span> <br />
@@ -21,7 +21,7 @@ const OnKeyLite = () => {
                 <span className="cc">Focus on execution, the <em>HOW</em>, and less on <em>WHAT</em> to play.</span><br />
                 <span className="dd">Minimize the need for paper or method books.</span> <br />
                 <span className="ee">a <em>FREE</em> version called "OnKeyLite" is available both here and on the <a href="https://apps.apple.com/us/app/onkey-lite-scale-practice/id1638630839" rel="noreferrer" target="_blank" className="green">App Store</a>  and <a href="https://play.google.com/store/apps/details?id=com.reameir.onkeylite" rel="noreferrer" target="_blank" className="green">Google Play.</a></span> </div>
-            <btn className="welcomeBtn" onClick={closeWelcomeMsg}>Try OnKeyLite</btn>
+            <button className="welcomeBtn" onClick={closeWelcomeMsg}>Try OnKeyLite</button>
         </div>
         <iframe title="OnKeyLite" src="https://re-ah.github.io/onkeyliteweb/"></iframe>
         <SocialLinks />

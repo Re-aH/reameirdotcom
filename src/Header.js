@@ -45,7 +45,7 @@ toggle between hiding and showing the dropdown content */
         hideMusDropItems()
     }
 
-
+    // const iframeRef = createRef();
     // Close the dropdown menu if the user clicks outside of it
     useEffect(() => {
         const handleClick = (event) => {
@@ -57,6 +57,7 @@ toggle between hiding and showing the dropdown content */
 
         window.addEventListener('click', handleClick);
         // const iframeDoc = iframeRef.current.contentDocument;
+        // console.log(iframeRef);
         // iframeDoc.addEventListener('click', handleClick)
         return () => {
             window.removeEventListener('click', handleClick);

@@ -574,7 +574,7 @@ input[type="range"]:focus::-ms-fill-upper {
 
 .onkeyWelcome {
   position: absolute;
-  top: 14%;
+  top: 85px;
   /* right: 0%; */
   left: 25%;
   margin: auto;
@@ -635,7 +635,7 @@ input[type="range"]:focus::-ms-fill-upper {
   width: 100%;
   height: ;
   position: relative;
-  top: -19px;
+  top: -24px;
   z-index: 0;
   /* border-radius: 7px 7px 0px 0px; */
 }

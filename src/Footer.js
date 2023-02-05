@@ -7,7 +7,7 @@ const Footer = () => {
     }
 
     return (
-        <div footer className="footer">
+        <div className="footer">
             <SocialLinks />
             <footer className='policy' onClick={privacyPolicyClicked}>
                 <Link to="/privacy-policy">privacy policy</Link>

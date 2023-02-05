@@ -25,7 +25,7 @@ const MusicComp = (props) => {
     function PlayPause() {
         //toggle play pause icon
         setIsPlaying(prevState => !prevState)
-        console.log(`${props.id} is now playing`);
+        // console.log(`${props.id} is now playing`);
         props.handlePlay(props.id);
     }
 
