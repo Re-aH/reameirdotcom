@@ -10,6 +10,16 @@ const ReaMeirGroup = () => {
                 <title>Rea Meir Group</title>
                 <meta name="description" content="The Rea Meir Group is a jazz fusion qurtet, featuring the EWI as the lead wind instrument. " />
             </Helmet>
+            <h1 className="RMGheader">Rea Meir</h1>
+            <img className="groupPic" alt="Rea Meir EWI" src="./images/me_with_EWI-removebg.png"></img>
+            <div className="RMtxt">
+
+                <p>
+                    Exploring music wherever it may lead. <br></br>From classical music to jazz. <br></br>From modern takes, arrangements or covers to original tunes.
+                </p>
+            </div>
+            <iframe className="spotifyPlayerLong" title="singlesAndEPs" src="https://open.spotify.com/embed/playlist/2qU38L6YQpbCMxUHCNMqZ6?utm_source=generator&theme=1" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
             <h1 className="RMGheader">Rea Meir Group</h1>
             <img className="groupPic" alt="Rea Meir Group" src="./images/reameirgroup1.webp"></img>
 
