@@ -11,6 +11,7 @@ import ReaMeirGroup from './pages/ReaMeirGroup';
 import Videos from './pages/Videos';
 import UpbeatMetronome from './pages/UpbeatMetronome';
 import Thankyou from './pages/Thankyou';
+import Havila from './pages/Havila';
 // import ReactAudioPlayer from 'react-audio-player';
 
 
@@ -30,6 +31,7 @@ const App = () => {
                 <Route path="/videos" element={<Videos />} />
                 <Route path="/reameirgroup" element={<ReaMeirGroup />} />
                 <Route path="/upbeatmetronome" element={<UpbeatMetronome />} />
+                <Route path="/havila" element={<Havila />} />
             </Routes>
         </Router>
     );

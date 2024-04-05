@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom'
-import hamImg from './images/ham-menu-64.png'
-import { useEffect, } from 'react'
+import { Link } from 'react-router-dom';
+import hamImg from './images/ham-menu-64.png';
+import { useEffect, } from 'react';
 
 const Header = () => {
 
@@ -103,12 +103,13 @@ toggle between hiding and showing the dropdown content */
                         <li className="dropbtn" onClick={dispDropItems}>Apps</li>
                         <li onClick={hideDropItems}><Link to="/onkeylite">OnKey</Link></li>
                         <li onClick={hideDropItems}><Link to="/upbeatmetronome">UpBeat </Link></li>
+                        <li onClick={hideDropItems}><Link to="/havila">חבילה <br></br>עוברת</Link></li>
                     </div>
                     <div className="dropdown hideDrop musDrop">
                         <li className="dropbtn" onClick={dispMusDropItems}>Music</li>
-                        <li onClick={hideMusDropItems}><Link to="/music">Audio</Link></li>
-                        <li onClick={hideMusDropItems}><Link to="/videos">Video</Link></li>
-                        <li onClick={hideMusDropItems}><Link to="/reameirgroup">Rea Meir Group</Link></li>
+                        <li onClick={hideMusDropItems}><Link to="/reameirgroup">Rea Meir Music</Link></li>
+                        <li onClick={hideMusDropItems}><Link to="/videos">Filmscoring Video</Link></li>
+                        <li onClick={hideMusDropItems}><Link to="/music">Filmscoring Audio</Link></li>
                     </div>
                 </ul>
                 <ul className='nav-items right'>
@@ -125,9 +126,9 @@ toggle between hiding and showing the dropdown content */
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/onkeylite">OnKey</Link></li>
                     <li><Link to="/upbeatmetronome">Upbeat-Metronome</Link></li>
-                    <li><Link to="/music">Music</Link></li>
-                    <li><Link to="/videos">Videos</Link></li>
-                    <li><Link to="/reameirgroup">Rea Meir Group</Link></li>
+                    <li><Link to="/reameirgroup">Rea Meir Music</Link></li>
+                    <li><Link to="/videos">Filmscoring Videos</Link></li>
+                    <li><Link to="/music">Filmscoring Music</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
 
@@ -135,18 +136,16 @@ toggle between hiding and showing the dropdown content */
 
 
 
-
+            {/* 
             <div className="coockieMsg ">
-                {/* <btn className="coockiexBtn" onClick={closeWelcomeMsg}>X</btn> */}
-
-                {/* <h1 className="onkeyHeader">OnKey - Scale Practice</h1> */}
+    
                 <div className="coockieText">We collect cookies to analyze our website traffic & performance; we never collect any personal data.
                 </div>
                 <div className="coockieBtn" onClick={closeWelcomeMsg}>
                     <div >Accept cookies</div>
 
                 </div>
-            </div>
+            </div> */}
         </div >
     )
 }
