@@ -83,12 +83,13 @@ toggle between hiding and showing the dropdown content */
 
 
 
+    //uncomment to close cookie msg
 
-    function closeWelcomeMsg() {
+    // function closeWelcomeMsg() {
 
-        document.querySelector(".coockieMsg").style.display = "none"
+    //     document.querySelector(".coockieMsg").style.display = "none"
 
-    }
+    // }
     return (
         <div >
             <nav className='nav'>
