@@ -183,8 +183,7 @@ ul {
   ); /* Adjusted width to 100% of the viewport width minus 20px */
   height: 90vh;
   top: 70px;
-  /* right: 0; */
-  transform: translateX(calc(- (50vw - 10px))); /* Dynamic translation */
+
   z-index: -5;
 }
 
