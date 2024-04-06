@@ -127,6 +127,7 @@ toggle between hiding and showing the dropdown content */
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/onkeylite">OnKey</Link></li>
                     <li><Link to="/upbeatmetronome">Upbeat-Metronome</Link></li>
+                    <li><Link to="/havila">חבילה <br></br>עוברת</Link></li>
                     <li><Link to="/reameirgroup">Rea Meir Music</Link></li>
                     <li><Link to="/videos">Filmscoring Videos</Link></li>
                     <li><Link to="/music">Filmscoring Music</Link></li>
