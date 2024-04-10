@@ -6,7 +6,7 @@ const Flashcards = () => {
         <div>
             <Helmet>
                 <title>Practics Flashcards</title>
-                <meta name="description" content="Practice Flashcards" />
+                <meta name="description" content="Practice Flashcards is a FREE practice aid app for musicians." />
             </Helmet>
             <div className="metContainer">
 
