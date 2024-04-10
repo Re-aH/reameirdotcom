@@ -20,7 +20,7 @@ const HomePageContent = () => {
                     <div className='homeText2'>
                         Seeking balance between logic and creativity. <br />
                         Autodidact, multidisciplinary web developer. <br />
-                        The muscle and the brain behind <span className='green'><Link to="/onkeylite">OnKey</Link></span> and <span className='green'> <Link to="/upbeatmetronome">UpBeat</Link></span> apps. <br />
+                        The muscle and the brain behind <span className='green'><Link to="/onkeylite">OnKey</Link></span>,<span className='green'> <Link to="/upbeatmetronome">UpBeat</Link></span>, <br /> <span className='green'> <Link to="/flashcards">Practice Flashcards</Link></span> and <span className='green'> <Link to="/havila">חבילה עוברת</Link></span>  apps. <br />
                         Music Composer & Wind Player.
 
                     </div>

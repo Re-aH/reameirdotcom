@@ -15,7 +15,8 @@ const ReaMeirGroup = () => {
             <div className="RMtxt">
 
                 <p>
-                    Exploring music wherever it may lead. <br></br>From classical music to jazz. <br></br>From modern takes, arrangements or covers to original tunes.
+                    Saxophonist, EWI player and composer. <br />
+                    Exploring music wherever it may lead.
                 </p>
             </div>
             <iframe className="spotifyPlayerLong" title="singlesAndEPs" src="https://open.spotify.com/embed/playlist/2qU38L6YQpbCMxUHCNMqZ6?utm_source=generator&theme=1" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
