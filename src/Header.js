@@ -104,6 +104,7 @@ toggle between hiding and showing the dropdown content */
                         <li className="dropbtn" onClick={dispDropItems}>Apps</li>
                         <li onClick={hideDropItems}><Link to="/onkeylite">OnKey</Link></li>
                         <li onClick={hideDropItems}><Link to="/upbeatmetronome">UpBeat </Link></li>
+                        <li onClick={hideDropItems}><Link to="/flashcards">Practice <br></br>Flashcards</Link></li>
                         <li onClick={hideDropItems}><Link to="/havila">חבילה <br></br>עוברת</Link></li>
                     </div>
                     <div className="dropdown hideDrop musDrop">
@@ -127,6 +128,7 @@ toggle between hiding and showing the dropdown content */
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/onkeylite">OnKey</Link></li>
                     <li><Link to="/upbeatmetronome">Upbeat-Metronome</Link></li>
+                    <li><Link to="/flashcards">Practice Flashcards</Link></li>
                     <li><Link to="/havila">חבילה <br></br>עוברת</Link></li>
                     <li><Link to="/reameirgroup">Rea Meir Music</Link></li>
                     <li><Link to="/videos">Filmscoring Videos</Link></li>
